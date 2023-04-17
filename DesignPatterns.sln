@@ -9,9 +9,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sturctural", "Sturctural", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioural", "Behavioural", "{86196BB9-AC25-4E4B-A376-8C7B542FCD2A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern", "Creational\SingletonPattern\SingletonPattern.csproj", "{C39F9F8A-766B-4E6F-BA08-1BC7E2B1EC15}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C39F9F8A-766B-4E6F-BA08-1BC7E2B1EC15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C39F9F8A-766B-4E6F-BA08-1BC7E2B1EC15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C39F9F8A-766B-4E6F-BA08-1BC7E2B1EC15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C39F9F8A-766B-4E6F-BA08-1BC7E2B1EC15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C39F9F8A-766B-4E6F-BA08-1BC7E2B1EC15} = {A835003D-9F01-4F6F-B300-756B1C9466D0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52181C07-118B-4100-A7B1-9B41F568DB0E}
