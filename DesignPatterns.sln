@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorPattern", "Sturctu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgePattern", "Sturctural\BridgePattern\BridgePattern.csproj", "{53BD0A85-5F19-46AC-A308-0781824489C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "Behavioural\StrategyPattern\StrategyPattern.csproj", "{D653877F-B389-4774-AA11-A03AECB84B76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyPattern", "Behavioural\StrategyPattern\StrategyPattern.csproj", "{D653877F-B389-4774-AA11-A03AECB84B76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "Behavioural\ObserverPattern\ObserverPattern.csproj", "{D0F582E2-9544-4484-BDF3-4B4657E2E83F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{D653877F-B389-4774-AA11-A03AECB84B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D653877F-B389-4774-AA11-A03AECB84B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D653877F-B389-4774-AA11-A03AECB84B76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0F582E2-9544-4484-BDF3-4B4657E2E83F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0F582E2-9544-4484-BDF3-4B4657E2E83F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0F582E2-9544-4484-BDF3-4B4657E2E83F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0F582E2-9544-4484-BDF3-4B4657E2E83F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -104,6 +110,7 @@ Global
 		{EDF55DE9-56AC-42B4-A06D-A24CD0755F54} = {E36EEF7A-53BE-4823-BDA5-2AC8C32A255D}
 		{53BD0A85-5F19-46AC-A308-0781824489C5} = {E36EEF7A-53BE-4823-BDA5-2AC8C32A255D}
 		{D653877F-B389-4774-AA11-A03AECB84B76} = {86196BB9-AC25-4E4B-A376-8C7B542FCD2A}
+		{D0F582E2-9544-4484-BDF3-4B4657E2E83F} = {86196BB9-AC25-4E4B-A376-8C7B542FCD2A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52181C07-118B-4100-A7B1-9B41F568DB0E}
