@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoPattern", "Behaviour
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodPattern", "Behavioural\TemplateMethodPattern\TemplateMethodPattern.csproj", "{08CBD126-2754-4DF4-9BB1-B913C054BA40}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePattern", "Behavioural\StatePattern\StatePattern.csproj", "{1EC2FAD9-393A-42FB-9F8C-EB42F5CE1736}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{08CBD126-2754-4DF4-9BB1-B913C054BA40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08CBD126-2754-4DF4-9BB1-B913C054BA40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08CBD126-2754-4DF4-9BB1-B913C054BA40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EC2FAD9-393A-42FB-9F8C-EB42F5CE1736}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EC2FAD9-393A-42FB-9F8C-EB42F5CE1736}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EC2FAD9-393A-42FB-9F8C-EB42F5CE1736}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EC2FAD9-393A-42FB-9F8C-EB42F5CE1736}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -132,6 +138,7 @@ Global
 		{5D98BDAE-EDE1-454E-960F-853AEA3651B9} = {86196BB9-AC25-4E4B-A376-8C7B542FCD2A}
 		{E5465B50-1EC6-4D70-BD4B-811EF87EB7FF} = {86196BB9-AC25-4E4B-A376-8C7B542FCD2A}
 		{08CBD126-2754-4DF4-9BB1-B913C054BA40} = {86196BB9-AC25-4E4B-A376-8C7B542FCD2A}
+		{1EC2FAD9-393A-42FB-9F8C-EB42F5CE1736} = {86196BB9-AC25-4E4B-A376-8C7B542FCD2A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52181C07-118B-4100-A7B1-9B41F568DB0E}
