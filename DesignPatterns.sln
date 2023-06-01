@@ -49,6 +49,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandPattern", "Behaviour
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorPattern", "Behavioural\VisitorPattern\VisitorPattern.csproj", "{3BDAD26F-D1D2-45AF-8050-950A2A2196AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencInjectionPattern", "Behavioural\DependencInjectionPattern\DependencInjectionPattern.csproj", "{136E4750-EE81-419E-B9DE-EB81809EEA46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{3BDAD26F-D1D2-45AF-8050-950A2A2196AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BDAD26F-D1D2-45AF-8050-950A2A2196AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BDAD26F-D1D2-45AF-8050-950A2A2196AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{136E4750-EE81-419E-B9DE-EB81809EEA46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{136E4750-EE81-419E-B9DE-EB81809EEA46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{136E4750-EE81-419E-B9DE-EB81809EEA46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{136E4750-EE81-419E-B9DE-EB81809EEA46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -160,6 +166,7 @@ Global
 		{4A98FE4E-DC67-466B-BC9E-3C848530DCC9} = {86196BB9-AC25-4E4B-A376-8C7B542FCD2A}
 		{E22F1877-663E-410F-A7FC-E636A244BA13} = {86196BB9-AC25-4E4B-A376-8C7B542FCD2A}
 		{3BDAD26F-D1D2-45AF-8050-950A2A2196AF} = {86196BB9-AC25-4E4B-A376-8C7B542FCD2A}
+		{136E4750-EE81-419E-B9DE-EB81809EEA46} = {86196BB9-AC25-4E4B-A376-8C7B542FCD2A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52181C07-118B-4100-A7B1-9B41F568DB0E}
