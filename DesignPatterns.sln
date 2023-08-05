@@ -47,13 +47,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatorPattern", "Behaviou
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandPattern", "Behavioural\CommandPattern\CommandPattern.csproj", "{E22F1877-663E-410F-A7FC-E636A244BA13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorPattern", "Behavioural\VisitorPattern\VisitorPattern.csproj", "{3BDAD26F-D1D2-45AF-8050-950A2A2196AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisitorPattern", "Behavioural\VisitorPattern\VisitorPattern.csproj", "{3BDAD26F-D1D2-45AF-8050-950A2A2196AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencInjectionPattern", "Behavioural\DependencInjectionPattern\DependencInjectionPattern.csproj", "{136E4750-EE81-419E-B9DE-EB81809EEA46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencInjectionPattern", "Behavioural\DependencInjectionPattern\DependencInjectionPattern.csproj", "{136E4750-EE81-419E-B9DE-EB81809EEA46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullObjcetPattern", "Behavioural\NullObjcetPattern\NullObjcetPattern.csproj", "{19B24EBF-5FF6-4E9E-99E4-743B750631AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullObjcetPattern", "Behavioural\NullObjcetPattern\NullObjcetPattern.csproj", "{19B24EBF-5FF6-4E9E-99E4-743B750631AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultitonPattern", "Creational\MultitonPattern\MultitonPattern.csproj", "{5B8BD565-F78B-472E-BD74-F326326BAD08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultitonPattern", "Creational\MultitonPattern\MultitonPattern.csproj", "{5B8BD565-F78B-472E-BD74-F326326BAD08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Strategy", "DesignPatterns.Strategy\DesignPatterns.Strategy.csproj", "{4596C28E-1346-4731-9864-DD8688EF5391}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{5B8BD565-F78B-472E-BD74-F326326BAD08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B8BD565-F78B-472E-BD74-F326326BAD08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B8BD565-F78B-472E-BD74-F326326BAD08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4596C28E-1346-4731-9864-DD8688EF5391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4596C28E-1346-4731-9864-DD8688EF5391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4596C28E-1346-4731-9864-DD8688EF5391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4596C28E-1346-4731-9864-DD8688EF5391}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,7 +6,7 @@
         public int Price { get; set; }
 
         static Product _instance;
-        private Product(){}
+        private Product() { }
         static Product()
         {
             _instance=new Product() { Name="Kalem",Price=20};
