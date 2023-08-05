@@ -55,7 +55,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullObjcetPattern", "Behavi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultitonPattern", "Creational\MultitonPattern\MultitonPattern.csproj", "{5B8BD565-F78B-472E-BD74-F326326BAD08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Strategy", "DesignPatterns.Strategy\DesignPatterns.Strategy.csproj", "{4596C28E-1346-4731-9864-DD8688EF5391}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Strategy", "DesignPatterns.Strategy\DesignPatterns.Strategy.csproj", "{4596C28E-1346-4731-9864-DD8688EF5391}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Template", "DesignPatterns.Template\DesignPatterns.Template.csproj", "{06E9CBA8-B980-416C-BCA1-A22F862DCC80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +161,10 @@ Global
 		{4596C28E-1346-4731-9864-DD8688EF5391}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4596C28E-1346-4731-9864-DD8688EF5391}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4596C28E-1346-4731-9864-DD8688EF5391}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06E9CBA8-B980-416C-BCA1-A22F862DCC80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E9CBA8-B980-416C-BCA1-A22F862DCC80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E9CBA8-B980-416C-BCA1-A22F862DCC80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E9CBA8-B980-416C-BCA1-A22F862DCC80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
