@@ -1,6 +1,7 @@
 using DesignPatternsApp.Adapter;
 using DesignPatternsApp.Observer;
 using DesignPatternsApp.Singleton;
+using DesignPatternsApp.Strategy;
 
 namespace DesignPatternsApp
 {
@@ -30,6 +31,10 @@ namespace DesignPatternsApp
                     case "adapterPattern":
                         AdapterForm adapterPattern = new();
                         adapterPattern.Show();
+                        break;
+                    case "strategyPattern":
+                        StrategyForm strategyPattern = new();
+                        strategyPattern.Show();
                         break;
                     default:
                         break;

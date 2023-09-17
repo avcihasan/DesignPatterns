@@ -32,6 +32,7 @@
             selectDesignPattern = new Button();
             observerPattern = new RadioButton();
             adapterPattern = new RadioButton();
+            strategyPattern = new RadioButton();
             SuspendLayout();
             // 
             // singletonPattern
@@ -74,11 +75,22 @@
             adapterPattern.Text = "Adapter Pattern";
             adapterPattern.UseVisualStyleBackColor = true;
             // 
+            // strategyPattern
+            // 
+            strategyPattern.AutoSize = true;
+            strategyPattern.Location = new Point(49, 153);
+            strategyPattern.Name = "strategyPattern";
+            strategyPattern.Size = new Size(135, 24);
+            strategyPattern.TabIndex = 4;
+            strategyPattern.Text = "Strategy Pattern";
+            strategyPattern.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(strategyPattern);
             Controls.Add(adapterPattern);
             Controls.Add(observerPattern);
             Controls.Add(selectDesignPattern);
@@ -95,5 +107,6 @@
         private Button selectDesignPattern;
         private RadioButton observerPattern;
         private RadioButton adapterPattern;
+        private RadioButton strategyPattern;
     }
 }
