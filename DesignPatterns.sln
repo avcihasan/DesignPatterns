@@ -71,7 +71,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Decorator", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Adapter", "DesignPatterns.Adapter\DesignPatterns.Adapter.csproj", "{A1518AFD-9387-4B81-922E-69F202F1DE04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsApp", "DesignPatternsApp\DesignPatternsApp.csproj", "{8DB3FC0C-2797-4289-A0B1-8D20F3CE25E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternsApp", "DesignPatternsApp\DesignPatternsApp.csproj", "{8DB3FC0C-2797-4289-A0B1-8D20F3CE25E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SingletonDesignPattern", "SingletonDesignPattern", "{55EE15E3-305B-4DF0-BF8D-AEC4DBE92AAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.Console", "SingletonDesignPattern\Singleton.Console\Singleton.Console.csproj", "{BFC60596-0C14-4EC6-BC06-E9816BEF7FA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonAsync.Console", "SingletonDesignPattern\SingletonAsync.Console\SingletonAsync.Console.csproj", "{326D8966-CF8E-4D28-918D-3A3A3FB54967}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -207,6 +213,14 @@ Global
 		{8DB3FC0C-2797-4289-A0B1-8D20F3CE25E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DB3FC0C-2797-4289-A0B1-8D20F3CE25E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DB3FC0C-2797-4289-A0B1-8D20F3CE25E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFC60596-0C14-4EC6-BC06-E9816BEF7FA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC60596-0C14-4EC6-BC06-E9816BEF7FA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC60596-0C14-4EC6-BC06-E9816BEF7FA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC60596-0C14-4EC6-BC06-E9816BEF7FA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{326D8966-CF8E-4D28-918D-3A3A3FB54967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{326D8966-CF8E-4D28-918D-3A3A3FB54967}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{326D8966-CF8E-4D28-918D-3A3A3FB54967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{326D8966-CF8E-4D28-918D-3A3A3FB54967}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -235,6 +249,8 @@ Global
 		{136E4750-EE81-419E-B9DE-EB81809EEA46} = {86196BB9-AC25-4E4B-A376-8C7B542FCD2A}
 		{19B24EBF-5FF6-4E9E-99E4-743B750631AD} = {86196BB9-AC25-4E4B-A376-8C7B542FCD2A}
 		{5B8BD565-F78B-472E-BD74-F326326BAD08} = {A835003D-9F01-4F6F-B300-756B1C9466D0}
+		{BFC60596-0C14-4EC6-BC06-E9816BEF7FA0} = {55EE15E3-305B-4DF0-BF8D-AEC4DBE92AAC}
+		{326D8966-CF8E-4D28-918D-3A3A3FB54967} = {55EE15E3-305B-4DF0-BF8D-AEC4DBE92AAC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52181C07-118B-4100-A7B1-9B41F568DB0E}
