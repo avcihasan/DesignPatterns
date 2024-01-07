@@ -83,6 +83,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MultitonDesignPattern", "Mu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiton.Console", "MultitonDesignPattern\Multiton.Console\Multiton.Console.csproj", "{D7D3DC74-25E3-4539-9AF4-BB8E59E7EEB5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryDesignPattern", "FactoryDesignPattern", "{A27AD1D9-CCE3-4154-9673-5A25DC1DE9D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory.Console", "FactoryDesignPattern\Factory.Console\Factory.Console.csproj", "{D0D9F8C4-A601-41A2-A681-765E7733D705}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -229,6 +233,10 @@ Global
 		{D7D3DC74-25E3-4539-9AF4-BB8E59E7EEB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7D3DC74-25E3-4539-9AF4-BB8E59E7EEB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7D3DC74-25E3-4539-9AF4-BB8E59E7EEB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0D9F8C4-A601-41A2-A681-765E7733D705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0D9F8C4-A601-41A2-A681-765E7733D705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0D9F8C4-A601-41A2-A681-765E7733D705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0D9F8C4-A601-41A2-A681-765E7733D705}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -260,6 +268,7 @@ Global
 		{BFC60596-0C14-4EC6-BC06-E9816BEF7FA0} = {55EE15E3-305B-4DF0-BF8D-AEC4DBE92AAC}
 		{326D8966-CF8E-4D28-918D-3A3A3FB54967} = {55EE15E3-305B-4DF0-BF8D-AEC4DBE92AAC}
 		{D7D3DC74-25E3-4539-9AF4-BB8E59E7EEB5} = {A5F4A996-8C81-4106-B24E-114E9AC59FBC}
+		{D0D9F8C4-A601-41A2-A681-765E7733D705} = {A27AD1D9-CCE3-4154-9673-5A25DC1DE9D5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52181C07-118B-4100-A7B1-9B41F568DB0E}
